@@ -1,0 +1,20 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "plover with react",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "ploverx": "~4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ploverjs/plover-react-boilerplate.git"
+  },
+  "author": "bencode@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ploverjs/plover-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ploverjs/plover-react-boilerplate#readme"
+}
