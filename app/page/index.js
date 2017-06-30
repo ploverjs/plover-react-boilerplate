@@ -1,6 +1,7 @@
 exports.index = (ctx) => {
-  const data = {
+  const state = {
     name: 'React'
   };
-  ctx.render(data);
+
+  ctx.render({ state });
 };

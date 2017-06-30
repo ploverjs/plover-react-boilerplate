@@ -1,3 +1,3 @@
 module.exports = ({ get }) => {
-  get('/', 'home#index');
+  get('/', 'page#index');
 };

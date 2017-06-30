@@ -1,0 +1,17 @@
+{
+  extends: 'eslint-config-airbnb',
+  rules: {
+    jsx-a11y/href-no-hash: 0,
+    import/no-extraneous-dependencies: 0,
+    import/no-unresolved: 0,
+    import/extensions: 0,
+
+    react/prop-types: 0,
+    react/jsx-filename-extension: 0,
+    no-use-before-define: 0,
+
+    comma-dangle: 0,
+
+    space-before-function-paren: 0
+  }
+}

@@ -1,0 +1,3 @@
+<% assets.css('/page.css') %>
+<% assets.js('/page.js') %>
+<div id="app" data-state="<%= json(state) %>"><%- react.render('Page', { store: react.store(state) }) %></div>

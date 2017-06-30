@@ -56,5 +56,12 @@ exports.assets = {
   // 对资源进行hash重命名，适合发布到CDN等场景
   digest: true,
   // 资源前缀
-  prefix: '/priv'
+  prefix: '/g',
+  // 如果婺源发到CDN，则需要设置资源的URL前缀
+  //urlPrefix: 'https://cdn.static.com/hello-react/'
+};
+
+
+exports.react = {
+  path: pathUtil.join(__dirname, '../public/g/server.js')
 };
