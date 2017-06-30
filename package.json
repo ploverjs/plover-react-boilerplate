@@ -4,6 +4,7 @@
   "description": "plover with react",
   "main": "index.js",
   "scripts": {
+    "dev": "node app.js",
     "webpack:server": "webpack --watch-stdin --progress --color --config config/webpack.config.js",
     "plover-build": "plover-build",
     "lint": "eslint static"
@@ -11,8 +12,7 @@
   "dependencies": {
     "create-tag": "^0.2.0",
     "debug": "^2.6.8",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "plover-react": "^0.0.2",
+    "plover-react": "^1.0.0",
     "ploverx": "^4.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -38,6 +38,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.0.1",
+    "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.1",
     "image-webpack-loader": "^3.2.0",
     "node-sass": "^4.5.0",
