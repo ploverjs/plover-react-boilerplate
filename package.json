@@ -4,7 +4,7 @@
   "description": "plover with react",
   "main": "index.js",
   "scripts": {
-    "dev": "node app.js",
+    "dev": "nodemon app.js",
     "webpack:server": "webpack --watch-stdin --progress --color --config config/webpack.config.js",
     "plover-build": "plover-build",
     "lint": "eslint static"
@@ -42,6 +42,7 @@
     "file-loader": "^0.11.1",
     "image-webpack-loader": "^3.2.0",
     "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
     "postcss-loader": "^2.0.5",
     "precss": "^1.4.0",
     "raw-loader": "^0.5.1",
