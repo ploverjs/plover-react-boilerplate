@@ -9,10 +9,10 @@ Plover结合React应用示例
 - 集成plover最新版本，基于koa2。
 - react & redux
 - webpack
-- 基于nodemon的node应用开发支持。
+- 基于[nodemon](https://nodemon.io/)的node应用开发支持。
 - 提供react服务端渲染的前后端同构方案。
-- 规划了合理的应用目标结构。
-- 使用pm2用于生产环境运行。
+- 规划了合理的应用目录结构。
+- 使用[pm2](http://pm2.keymetrics.io/)用于生产环境运行。
 
 
 ## 开发和使用
