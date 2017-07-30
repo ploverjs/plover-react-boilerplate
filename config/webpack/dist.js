@@ -8,7 +8,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = merge(base, {
   output: {
-    publicPath: 'https://hlj-img.b0.upaiyun.com/quora/static/'
+    publicPath: '/g/'
   },
 
   plugins: [
