@@ -23,9 +23,11 @@ Plover结合React应用示例
 git clone https://github.com/ploverjs/plover-react-boilerplate.git
 cd plover-react-boilerplate
 npm install
+npm run dev
 
-npm run webpack:server  # 运行webpack开发环境
-npm run dev  # 运行node环境
+# 也可以使用yarn
+yarn install
+yarn dev
 ```
 
 之后就可以进行开发了。
@@ -45,5 +47,5 @@ npm run build
 应用部署到服务器后，使用以下命令启动应用：
 
 ```sh
-npm run start
+npm start
 ```
