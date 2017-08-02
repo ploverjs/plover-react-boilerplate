@@ -10,6 +10,7 @@ Plover结合React应用示例
 - react & redux
 - webpack
 - 基于[nodemon](https://nodemon.io/)的node应用开发支持。
+- livereload
 - 提供react服务端渲染的前后端同构方案。
 - 规划了合理的应用目录结构。
 - 使用[pm2](http://pm2.keymetrics.io/)用于生产环境运行。
