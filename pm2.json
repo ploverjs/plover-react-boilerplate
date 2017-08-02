@@ -1,7 +1,12 @@
 {
   "apps" : [{
-    "script"    : "app.js",
-    "instances" : 0,
-    "exec_mode" : "cluster"
+    "name": "hello-react",
+    "script": "app.js",
+    "instances": 0,
+    "exec_mode": "cluster",
+    "env": {
+      "NODE_ENV": "production"
+    }
   }]
 }
+

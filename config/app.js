@@ -12,7 +12,7 @@ exports.server = {
 /**
  * 模块目录
  */
-exports.modulesDir = pathUtil.join(__dirname, '../app');
+exports.modulesDir = pathUtil.join(__dirname, '../lib/app');
 
 
 /**

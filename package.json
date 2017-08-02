@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start pm2.json",
-    "stop": "pm2 stop app",
-    "dev": "nodemon app.js",
-    "webpack:server": "webpack --watch-stdin --progress --color --config config/webpack.config.js",
+    "stop": "pm2 stop hello-react",
+    "dev": "node dev.js",
+    "webpack": "webpack --watch-stdin --progress --color --config config/webpack.config.js",
     "webpack:build": "webpack -p --env dist --config config/webpack.config.js",
     "plover:build": "plover-build",
     "lint": "eslint static",
