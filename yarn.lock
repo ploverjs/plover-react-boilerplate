@@ -1603,7 +1603,7 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.11.0, commander@^2.9.0:
+commander@2.11.0, commander@^2.10.0, commander@^2.9.0:
   version "2.11.0"
   resolved "https://r.cnpmjs.org/commander/download/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
@@ -1702,7 +1702,7 @@ cookies@~0.7.0:
     depd "~1.1.1"
     keygrip "~1.0.2"
 
-copy-to@^2.0.1, copy-to@~2.0.1:
+copy-to@^2.0.1:
   version "2.0.1"
   resolved "https://r.cnpmjs.org/copy-to/download/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
 
@@ -1746,10 +1746,6 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
 crc@^3.4.4:
   version "3.5.0"
   resolved "https://r.cnpmjs.org/crc/download/crc-3.5.0.tgz#98b8ba7d489665ba3979f59b21381374101a1964"
-
-crc@~3.4.0:
-  version "3.4.4"
-  resolved "https://r.cnpmjs.org/crc/download/crc-3.4.4.tgz#9da1e980e3bd44fc5c93bf5ab3da3378d85e466b"
 
 create-ecdh@^4.0.0:
   version "4.0.0"
@@ -1998,7 +1994,7 @@ debug@*, debug@^3, debug@^3.0, debug@^3.0.1, debug@^3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.6.0, debug@^2.6.1, debug@^2.6.3, debug@^2.6.8, debug@~2.6.1:
+debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.8, debug@~2.6.1:
   version "2.6.9"
   resolved "https://r.cnpmjs.org/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -2951,14 +2947,6 @@ from@~0:
   version "0.1.7"
   resolved "https://r.cnpmjs.org/from/download/from-0.1.7.tgz#83c60afc58b9c56997007ed1a768b3ab303a44fe"
 
-fs-extra@^3.0.1:
-  version "3.0.1"
-  resolved "https://r.cnpmjs.org/fs-extra/download/fs-extra-3.0.1.tgz#3794f378c58b342ea7dbbb23095109c4b3b62291"
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^3.0.0"
-    universalify "^0.1.0"
-
 fs-extra@^4.0.0, fs-extra@^4.0.2:
   version "4.0.2"
   resolved "https://r.cnpmjs.org/fs-extra/download/fs-extra-4.0.2.tgz#f91704c53d1b461f893452b0c307d9997647ab6b"
@@ -3407,7 +3395,7 @@ http-assert@^1.1.0:
     deep-equal "~1.0.1"
     http-errors "~1.6.1"
 
-http-errors@1.6.2, http-errors@^1.2.8, http-errors@~1.6.1, http-errors@~1.6.2:
+http-errors@1.6.2, http-errors@^1.2.8, http-errors@^1.6.1, http-errors@~1.6.1, http-errors@~1.6.2:
   version "1.6.2"
   resolved "https://r.cnpmjs.org/http-errors/download/http-errors-1.6.2.tgz#0a002cc85707192a7e7946ceedc11155f60ec736"
   dependencies:
@@ -4016,12 +4004,6 @@ json5@^0.5.0, json5@^0.5.1:
   version "0.5.1"
   resolved "https://r.cnpmjs.org/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
 
-jsonfile@^3.0.0:
-  version "3.0.1"
-  resolved "https://r.cnpmjs.org/jsonfile/download/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "https://r.cnpmjs.org/jsonfile/download/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
@@ -4133,16 +4115,6 @@ koa-favicon@^2.0.0:
   dependencies:
     mz "^2.0.0"
 
-koa-generic-session@^1.11.5:
-  version "1.11.6"
-  resolved "https://r.cnpmjs.org/koa-generic-session/download/koa-generic-session-1.11.6.tgz#8d714cc3671a6b9fcde2c7eb4f32fe7bd6096566"
-  dependencies:
-    copy-to "~2.0.1"
-    crc "~3.4.0"
-    debug "*"
-    parseurl "~1.3.1"
-    uid-safe "~2.1.1"
-
 koa-is-json@^1.0.0:
   version "1.0.0"
   resolved "https://r.cnpmjs.org/koa-is-json/download/koa-is-json-1.0.0.tgz#273c07edcdcb8df6a2c1ab7d59ee76491451ec14"
@@ -4151,14 +4123,14 @@ koa-response-time@^2.0.0:
   version "2.0.0"
   resolved "https://r.cnpmjs.org/koa-response-time/download/koa-response-time-2.0.0.tgz#9590b54284dc59a9ec10f80b69048a66188342bb"
 
-koa-send@^3.2.0:
-  version "3.3.0"
-  resolved "https://r.cnpmjs.org/koa-send/download/koa-send-3.3.0.tgz#5a4ae245564680c6ecf6079e9275fa5173a861dc"
+koa-send@^4.1.0:
+  version "4.1.1"
+  resolved "https://r.cnpmjs.org/koa-send/download/koa-send-4.1.1.tgz#bd3fa116b1f592f5fff23c9670aae69787f6cb57"
   dependencies:
-    co "^4.6.0"
-    debug "^2.6.0"
-    mz "^2.3.1"
-    resolve-path "^1.3.1"
+    debug "^2.6.3"
+    http-errors "^1.6.1"
+    mz "^2.6.0"
+    resolve-path "^1.3.3"
 
 koa-sendfile@^2.0.0:
   version "2.0.0"
@@ -4168,7 +4140,7 @@ koa-sendfile@^2.0.0:
     etag "^1.5.1"
     mz "2"
 
-koa-session@^5.4.0:
+koa-session@^5.5.0:
   version "5.5.0"
   resolved "https://r.cnpmjs.org/koa-session/download/koa-session-5.5.0.tgz#743ea5e5ead0a23444788c8776d66f674f325815"
   dependencies:
@@ -4177,12 +4149,12 @@ koa-session@^5.4.0:
     is-type-of "^1.0.0"
     uid-safe "^2.1.3"
 
-koa-static@^3.0.0:
-  version "3.0.0"
-  resolved "https://r.cnpmjs.org/koa-static/download/koa-static-3.0.0.tgz#40442233d2c0b35c225e450199c10bf8a539e416"
+koa-static@^4.0.1:
+  version "4.0.1"
+  resolved "https://r.cnpmjs.org/koa-static/download/koa-static-4.0.1.tgz#b99521ed848d7adb79acae9c824d8d8277a8c4d5"
   dependencies:
-    debug "*"
-    koa-send "^3.2.0"
+    debug "^2.6.8"
+    koa-send "^4.1.0"
 
 koa@^2.3.0:
   version "2.3.0"
@@ -4749,7 +4721,7 @@ mute-stream@0.0.7, mute-stream@~0.0.4:
   version "0.0.7"
   resolved "https://r.cnpmjs.org/mute-stream/download/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-mz@2, mz@^2.0.0, mz@^2.1.0, mz@^2.3.1, mz@^2.6.0:
+mz@2, mz@^2.0.0, mz@^2.1.0, mz@^2.6.0:
   version "2.7.0"
   resolved "https://r.cnpmjs.org/mz/download/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
   dependencies:
@@ -5158,7 +5130,7 @@ parse-json@^2.1.0, parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-parseurl@^1.3.0, parseurl@~1.3.1, parseurl@~1.3.2:
+parseurl@^1.3.0, parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://r.cnpmjs.org/parseurl/download/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
 
@@ -5200,11 +5172,9 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://r.cnpmjs.org/path-to-regexp/download/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
 
-path-to-regexp@^1.7.0:
-  version "1.7.0"
-  resolved "https://r.cnpmjs.org/path-to-regexp/download/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
-  dependencies:
-    isarray "0.0.1"
+path-to-regexp@^2.1.0:
+  version "2.1.0"
+  resolved "https://r.cnpmjs.org/path-to-regexp/download/path-to-regexp-2.1.0.tgz#7e30f9f5b134bd6a28ffc2e3ef1e47075ac5259b"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -5291,12 +5261,12 @@ plover-arttemplate@^3.1.0:
     is-type-of "~1.0.0"
 
 plover-assets@^4.0.0:
-  version "4.2.1"
-  resolved "https://r.cnpmjs.org/plover-assets/download/plover-assets-4.2.1.tgz#c7ed4e0aee07aa9503c21e91f94a7f1aff394f08"
+  version "4.3.0"
+  resolved "https://r.cnpmjs.org/plover-assets/download/plover-assets-4.3.0.tgz#3208dd5eb1bc15fa249836cf1419013de5ff0f18"
   dependencies:
     co "^4.6.0"
     create-tag "^0.2.0"
-    debug "^2.6.8"
+    debug "^3.1.0"
     fs-extra "^4.0.0"
     koa-sendfile "^2.0.0"
     lodash "^4.17.4"
@@ -5305,7 +5275,7 @@ plover-assets@^4.0.0:
     plover-logger "^1.4.4"
     plover-module-resolver "^1.6.7"
     plover-util "^1.7.0"
-    resolve-from "^3.0.0"
+    resolve-from "^4.0.0"
 
 plover-benchmark@^1.1.0:
   version "1.1.0"
@@ -5321,10 +5291,10 @@ plover-ejs@^1.1.0:
     ejs "~2.5.2"
 
 plover-logger@^1.4.0, plover-logger@^1.4.4:
-  version "1.5.0"
-  resolved "https://r.cnpmjs.org/plover-logger/download/plover-logger-1.5.0.tgz#1254266eb1827533fea39e88f82e72bb47032a82"
+  version "1.6.0"
+  resolved "https://r.cnpmjs.org/plover-logger/download/plover-logger-1.6.0.tgz#166f2743344cdcabd845b1d83e2ba03a07771639"
   dependencies:
-    debug "^2.6.3"
+    debug "^3.1.0"
 
 plover-logger@~1.4.1:
   version "1.4.4"
@@ -5333,11 +5303,11 @@ plover-logger@~1.4.1:
     debug "~2.6.1"
 
 plover-module-resolver@^1.6.6, plover-module-resolver@^1.6.7:
-  version "1.7.0"
-  resolved "https://r.cnpmjs.org/plover-module-resolver/download/plover-module-resolver-1.7.0.tgz#eff4a1d26eaa06c33cb7ab7c1630cbd0d530f3f1"
+  version "1.8.0"
+  resolved "https://r.cnpmjs.org/plover-module-resolver/download/plover-module-resolver-1.8.0.tgz#b6486f598b6be6dd8e827b02da4e448f20f0d39c"
   dependencies:
-    debug "^2.6.1"
-    resolve-from "^2.0.0"
+    debug "^3.1.0"
+    resolve-from "^4.0.0"
     semver "^5.4.1"
 
 plover-react@^2.0.0:
@@ -5350,20 +5320,20 @@ plover-react@^2.0.0:
     redux "^3.7.2"
 
 plover-router@^3.1.0:
-  version "3.2.0"
-  resolved "https://r.cnpmjs.org/plover-router/download/plover-router-3.2.0.tgz#275fad38826624580de02fa3c0a299a41b1adac8"
+  version "3.3.0"
+  resolved "https://r.cnpmjs.org/plover-router/download/plover-router-3.3.0.tgz#76d72c3419dfbb15c2063c548ce9a1b9498ea09e"
   dependencies:
     inflection "^1.12.0"
 
-plover-util@^1.7.0:
-  version "1.8.0"
-  resolved "https://r.cnpmjs.org/plover-util/download/plover-util-1.8.0.tgz#ed2dfefa1b86d1a550de1c948e32577db01ad9eb"
+plover-util@^1.7.0, plover-util@^1.8.0:
+  version "1.9.0"
+  resolved "https://r.cnpmjs.org/plover-util/download/plover-util-1.9.0.tgz#3a104230c6cd804b5dd96e72a2e9918d096374c6"
 
 plover-web@^3.0.0:
-  version "3.1.0"
-  resolved "https://r.cnpmjs.org/plover-web/download/plover-web-3.1.0.tgz#c60d2fd05e96c06aa8f2faddf8c8ce6ae430fdaa"
+  version "3.2.0"
+  resolved "https://r.cnpmjs.org/plover-web/download/plover-web-3.2.0.tgz#9f4ad19ce149886800a4c3f07ce1a1acf99ff34b"
   dependencies:
-    debug "^2.6.3"
+    debug "^3.1.0"
     iconv-lite "^0.4.13"
     koa-bodyparser "^4.2.0"
     koa-compress "^2.0.0"
@@ -5371,29 +5341,29 @@ plover-web@^3.0.0:
     koa-csrf "^2.5.0"
     koa-etag "^3.0.0"
     koa-favicon "^2.0.0"
-    koa-generic-session "^1.11.5"
     koa-response-time "^2.0.0"
-    koa-session "^5.4.0"
-    koa-static "^3.0.0"
-    path-to-regexp "^1.7.0"
+    koa-session "^5.5.0"
+    koa-static "^4.0.1"
+    minimatch "^3.0.4"
     plover-logger "^1.4.4"
     qs "^6.5.0"
 
 plover-xview@^3.0.0:
-  version "3.1.0"
-  resolved "https://r.cnpmjs.org/plover-xview/download/plover-xview-3.1.0.tgz#465fed2fcce91da91f1e64aefd467669c75b0d24"
+  version "3.2.0"
+  resolved "https://r.cnpmjs.org/plover-xview/download/plover-xview-3.2.0.tgz#cec306168513cb42db72088e44bf847ce6e382d6"
   dependencies:
     create-tag "^0.2.0"
     escape-html "^1.0.3"
     output-formatter "^1.0.2"
-    plover-util "^1.7.0"
+    plover-util "^1.8.0"
 
 plover@^3.0.1:
-  version "3.1.0"
-  resolved "https://r.cnpmjs.org/plover/download/plover-3.1.0.tgz#e8b934b53c50afc0546216379a493a6a82e907bb"
+  version "3.3.0"
+  resolved "https://r.cnpmjs.org/plover/download/plover-3.3.0.tgz#4be763987355c5e0409014b5acca3f24896bc97c"
   dependencies:
     antsort "^1.1.2"
     co "^4.6.0"
+    debug "^3.1.0"
     delegates "^1.0.0"
     depd "^1.1.0"
     escape-html "^1.0.3"
@@ -5401,21 +5371,23 @@ plover@^3.0.1:
     koa "^2.3.0"
     koa-compose "^4.0.0"
     koa-convert "^1.2.0"
+    minimatch "^3.0.4"
     mz "^2.6.0"
     output-formatter "^1.0.1"
-    path-to-regexp "^1.7.0"
+    path-to-regexp "^2.1.0"
     plover-logger "^1.4.0"
     plover-module-resolver "^1.6.6"
     plover-util "^1.7.0"
     ready-callback "^2.0.1"
-    resolve-from "^2.0.0"
+    resolve-from "^4.0.0"
 
-ploverx@^4.1.0:
-  version "4.1.0"
-  resolved "https://r.cnpmjs.org/ploverx/download/ploverx-4.1.0.tgz#45855eb3f81ee6c4e92eebcc35253718dfccb1c4"
+ploverx@^4.3.0:
+  version "4.3.0"
+  resolved "https://r.cnpmjs.org/ploverx/download/ploverx-4.3.0.tgz#731ceddda2a53916345d46ed78ba30d7ee82dd19"
   dependencies:
     bluebird "^3.5.0"
-    fs-extra "^3.0.1"
+    commander "^2.10.0"
+    fs-extra "^4.0.0"
     plover "^3.0.1"
     plover-arttemplate "^3.1.0"
     plover-assets "^4.0.0"
@@ -6477,15 +6449,11 @@ resolve-from@^1.0.0:
   version "1.0.1"
   resolved "https://r.cnpmjs.org/resolve-from/download/resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
 
-resolve-from@^2.0.0:
-  version "2.0.0"
-  resolved "https://r.cnpmjs.org/resolve-from/download/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
+resolve-from@^4.0.0:
+  version "4.0.0"
+  resolved "https://r.cnpmjs.org/resolve-from/download/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
 
-resolve-from@^3.0.0:
-  version "3.0.0"
-  resolved "https://r.cnpmjs.org/resolve-from/download/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
-
-resolve-path@^1.3.1:
+resolve-path@^1.3.3:
   version "1.3.3"
   resolved "https://r.cnpmjs.org/resolve-path/download/resolve-path-1.3.3.tgz#4d83aba6468c2b8e632a575e3f52b0fa0dbe1a5c"
   dependencies:
@@ -7303,7 +7271,7 @@ uid-safe@2.1.4:
   dependencies:
     random-bytes "~1.0.0"
 
-uid-safe@^2.1.3, uid-safe@~2.1.1:
+uid-safe@^2.1.3:
   version "2.1.5"
   resolved "https://r.cnpmjs.org/uid-safe/download/uid-safe-2.1.5.tgz#2b3d5c7240e8fc2e58f8aa269e5ee49c0857bd3a"
   dependencies:

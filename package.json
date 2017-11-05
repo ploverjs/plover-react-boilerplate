@@ -17,7 +17,7 @@
     "create-tag": "^0.2.0",
     "debug": "^3.0.1",
     "plover-react": "^2.0.0",
-    "ploverx": "^4.1.0",
+    "ploverx": "^4.3.0",
     "pm2": "^2.5.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
