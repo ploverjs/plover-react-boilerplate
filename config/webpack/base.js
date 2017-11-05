@@ -80,7 +80,7 @@ module.exports = {
 
       {
         test: /\.(jpe?g|png|gif)$/i,
-        loaders: [
+        use: [
           'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
           'image-webpack-loader?{bypassOnDebug:true,options:{optimizationLevel:7},gifsicle:{interlaced:false}}'
         ]
@@ -93,7 +93,7 @@ module.exports = {
 
       {
         test: /\.svg$/,
-        loaders: ['raw-loader', 'svgo-loader?' + svgConfig]
+        use: ['raw-loader', 'svgo-loader?' + svgConfig]
       },
 
       {
